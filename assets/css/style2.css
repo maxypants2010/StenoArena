@@ -1,6 +1,7 @@
-html, body {
+     html, body {
     height: 100%;
     width: 100%;
+    /* margin-bottom: 50px; */
 }
 
 .navbar{
@@ -36,6 +37,7 @@ html, body {
     position: relative;
     width: 100%;
     background-size: cover;
+    overflow: hidden;
 }
 
 .landing-text{
@@ -43,15 +45,34 @@ html, body {
     text-align: center;
     vertical-align: middle;
     color: rgb(199, 199, 199);
+    line-height: 2em;
 }
 
 .landing-text h1{
     font-size: 800%;
-    font-weight: 0%;
+    font-weight: bold;
+    animation: youReady 3s ease-out;
+    margin-bottom: -.2em;
+}
+
+.landing-text h2{
+    font-weight: bold;
+    animation: youReady 3.1s ease-out;
 }
 
 .btn{
+    margin-bottom: -2em;
     background-color: transparent;
     color: white;
     font-weight: 500;
+    animation: youReady 3.2s ease-out;
+}
+
+@keyframes youReady {
+    0%{
+        color: transparent;
+        border-color: transparent;
+        transform: translate(0,30px);
+    }
+
 }
