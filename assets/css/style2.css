@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #23305a;
+    padding: 0% 0 0%;
+    font-size: 1.2em;
+    border: 0 !important;
+    padding-right: 1%;
+}
+
+/* not that important */
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 0 px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a.active {
+    color: white;
+}
+
+#home {
+    background: url(https://fsb.zobj.net/crop.php?r=-Ph50Iza38adrd0f2LMvK_7N2F4sq1gaRv2UnykUjxNfp5EdDzgH2SiuaWxD40mF9PsRHWCs5gnS-ct5AX0fvadvANeE4qi20N0OdEVKFcnAbUEGp7oEdhMsvuYPLy3egKr7z7iyACmkHP1cNt6GUWkeG09Nxc-oF52jb6mcvxe5Jb7OvxfnplX43Ew) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(199, 199, 199);
+}
+
+.landing-text h1{
+    font-size: 800%;
+    font-weight: 0%;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
